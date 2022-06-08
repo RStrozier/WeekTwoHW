@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(165, 224, 165);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(241, 234, 225);
+    font-family: cursive;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(93, 93, 201);
+    font-stretch: expanded;
+    font-family: fantasy;
+}
+
+li {
+    display: flex;
+    box-sizing: 500;
+    padding: 250;
+    margin: 380;
+    background-color: rgba(230, 244, 247, 0.925);
+    font-weight: 400;
+    color: rgb(121, 215, 252);
+}
+
+.navLinks li {
+    display: flexbox;
+    margin: 0;
+    padding: 30px 65px;
+    border: 20px;
+}
+
+.navLinks li a:hover {
+    color: aqua;
+}
+
+article1 {
+    display: flex;
+    content: none;
+    margin: 0px; 
+    padding: 80px 30px;
+    border: 10px;
+    border-style: outset; 
+    border-color: rgb(49, 8, 230);
+}
+
+article2 {
+    display: flex;
+    content: none;
+    margin: 0px; 
+    padding: 10px 10px;
+    border: 10px;
+    border-style: outset; 
+    border-color: rgb(230, 8, 230);
+}
+
+article3 {
+    display: flex;
+    content: none;
+    margin: 0px; 
+    padding: 10px 10px;
+    border: 10px;
+    border-style: outset; 
+    border-color: rgb(230, 226, 8);
+}
+
+article4 {
+    display: flex;
+    content: none;
+    margin: 0px; 
+    padding: 10px 10px;
+    border: 10px;
+    border-style: outset; 
+    border-color: rgb(230, 115, 8);
+}
+
+   img {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+   }
+   rome {
+    height:150px;
+    width: 150px;
+    object-fit: scale-down;
+   }
+
+   ohioPolitics {
+    height:10px;
+    width: 10px;
+    object-fit: scale-down;
+   }
+
+   oneWorld {
+    height:10px;
+    width: 10px;
+    object-fit: contain;
+   }
+   
+footer {
+    text-align: left;
+}
